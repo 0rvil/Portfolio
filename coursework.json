@@ -1,0 +1,95 @@
+[
+    {
+        "title":"Big Data & High Performance Computing, CSCI 4623",
+        "taken":"Spring, 2025. TWU",
+        "desc":"Big data, the challenges its analysis presents, the role of high performance computing in big data analytics, and the tools and techniques used in big data scenarios, (e.g. statistical software, NoSQL, MapReduce and Hadoop). Exploration of case studies in varied application domains.",
+        "icon" : "bi bi-bar-chart-line",
+        "bgcolor" : "bg-primary"
+    },
+    {
+        "title":"Principles of Data Mining, CSCI 4823",
+        "taken":"Spring, 2025. TWU",
+        "desc":"Study of algorithms and computational paradigms to find patterns in data and perform prediction and forecasting to extract useful knowledge from raw data. Application of data preparation techniques, data mining techniques, and visualization.",
+        "icon":"bi bi-database-fill-check",
+        "bgcolor" : "bg-secondary"
+    },
+    {
+        "title":"Algorithm Analysis & Design, CSCI 3613",
+        "taken":"Spring, 2025. TWU",
+        "desc":"Techniques for design of efficient algorithms and their performance. Design of algorithms that operate on common data structures including sorting and searching. Advanced design and analysis techniques and advanced graph algorithms.",
+        "icon": "bi bi-stack",
+        "bgcolor" : "bg-success"
+    },
+    {
+        "title":"Operating Systems, CSCI 3503",
+        "taken":"Spring, 2025. TWU",
+        "desc":"Computer system and operating system architectures, processes, inter-process communication and synchronization, mutual exclusion, deadlocks, memory, CPU scheduling, file systems, I/O device management, and security.",
+        "icon": "bi bi-cpu",
+        "bgcolor" : "bg-danger"
+    },
+    {
+        "title":"Computer Organization & Machine Language, CSCI 2643",
+        "taken":"Spring, 2025. TWU",
+        "desc":"A study of the basic theory of computer organization. Review the mechanism of the machine cycle, digital representation of data and instructions. An introduction to assembly (machine) language, assemblers, loader, macros, subroutines, and linking.",
+        "icon":"bi bi-file-earmark-binary",
+        "bgcolor" : "bg-warning"
+    },
+    {
+        "title":"Data Structures, CSCI 3053",
+        "taken":"Fall, 2024. TWU",
+        "desc":"Introduction to the representation of information; data objects, classes, and structures; string processing; searching and sorting; stacks and queues; hash coding; lists, trees, and manipulation of data structures.",
+        "icon": "bi bi-stack info",
+        "bgcolor" : "bg-success"
+    },
+    {
+        "title":"Website Development, CSCI 3803",
+        "taken":"Fall, 2024. TWU",
+        "desc":"Introduction to the creation and development of websites with markup languages, styles, scripting languages, and dynamic content; includes multimedia, forms, adaptive page layout, navigation, and content. Web authoring software. Site architecture, screen, and page layout. Site navigation,color templates, and frontend technologies.",
+        "icon": "bi bi-code-slash",
+        "bgcolor" : "bg-primary"
+    },
+    {
+        "title":"Database Management, CSCI 3423",
+        "taken":"Summer, 2024. TWU",
+        "desc":"Organization and retrieval techniques for computer-based information systems, techniques of design, implementation, and utilization of database management systems. Applications of Database management software with SQL and mySQLWorkBench",
+        "icon": "bi bi-database",
+        "bgcolor" : "bg-secondary"
+    },
+    {
+        "title":"Discrete Mathematics, MATH 3013",
+        "taken":"Summer, 2024. TWU",
+        "desc":"Sets, functions, Boolean algebra, logic, number theory and representations, graph theory, algorithms, and computability.",
+        "icon":"bi bi-calculator",
+        "bgcolor" : "bg-success"
+    },
+    {
+        "title":"Probability & Statistics, MATH 4013",
+        "taken":"Spring, 2024. TWU",
+        "desc":"The theory of discrete and continuous random variables and their distributions. Topics include expected values, binomial and normal distributions, the central limit theorem, confidence intervals, and hypothesis testing.",
+        "icon":"bi bi-graph-up",
+        "bgcolor" : "bg-danger"
+    },
+    {
+        "title":"Vector Calculus, MATH 20E",
+        "taken":"Spring, 2023. UCSD",
+        "desc":"Change of variable in multiple integrals, Jacobian, Line integrals, Green's theorem. Vector fields, gradient fields, divergence, curl. Spherical/cylindrical coordinates. Surface integrals, Stoke's theorem. Gauss' theorem. Conservative fields.",
+        "icon":"bi bi-calculator",
+        "bgcolor" : "bg-warning"
+    },
+    {
+        "title":"Intro to Differential Equations, MATH 20D",
+        "taken":"Winter, 2023. UCSD",
+        "desc":"Ordinary differential equations: exact, separable, and linear; constant coefficients, undetermined coefficients, variations of parameters. Systems. Series solutions. Laplace transforms. Techniques for engineering sciences. Computing symbolic and graphical solutions using MATLAB.",
+        "icon":"bi bi-book",
+        "bgcolor" : "bg-success"
+    },
+    {
+        "title":"Linear Algebra",
+        "taken":"Fall, 2022. UCSD",
+        "desc":"Matrix algebra, Gaussian elimination, determinants. Linear and affine subspaces, bases of Euclidean spaces. Eigenvalues and eigenvectors, quadratic forms, orthogonal matrices, diagonalization of symmetric matrices.",
+        "icon":"bi bi-calculator",
+        "bgcolor" : "bg-primary"
+    }
+
+    
+]

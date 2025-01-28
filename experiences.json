@@ -1,0 +1,43 @@
+[
+
+    {
+        "title":"Ignite Program Student",
+        "organization":"AI4ALL",
+        "date":"September 2024 - Present",
+        "desc":"Led a team in applying clustering and analysis techniques to a large Instacart dataset of 3,421,083 transactions and 206,209 customers. Leveraged KMeans, DBSCAN, and Word2Vec algorithms on product and customer transaction data to reveal product associations and customer purchasing patterns. Used Python with libraries including pandas, numpy, matplotlib, scipy.stats, squarify, and sklearn.",
+        "icon":"bi bi-graph-up",
+        "bgcolor":"bg-primary"
+    },
+    {
+        "title":"Guest Advocate",
+        "organization":"Target",
+        "date":"October 2023 - Present",
+        "desc":"Effectively manage Point of Sale (POS) operations, processing an average of 50+ daily transactions with an average transaction value exceeding $150, while also addressing guest concerns and efficiently bagging items, contributing to a 95% guest satisfaction rate. Assume roles in General Merchandise, Fufillment, and Tech, to contribute to team efforts by effectively stocking hundreds of products in inventory and sales floor, and assisting guests in product selection; showcasing adaptability, effective communication, and a commitment to delivering exceptional guest experiences.",
+        "icon":"bi bi-briefcase-fill",
+        "bgcolor":"bg-danger"
+    },
+    {
+        "title":"Active General Body Member",
+        "organization":"Society of Hispanic Professional Engineers, SHPE at UCSD",
+        "date":"October 2022 - June 2023",
+        "desc":" Engaged in a panel providing academic and personal success advice to 100+ high school students at an underachieving school, promoting higher education in STEM. Co-facilitated a hands-on STEM activity, inspiring enthusiasm for STEM among 20+ fifth-grade students. Co-led a parent presentation, assisted with activities, and facilitated campus tours for 30+ students, promoting STEM exploration and higher education at the EMPOWER High School STEM conference.",
+        "icon":"bi bi-building",
+        "bgcolor":"bg-warning"
+    },
+    {
+        "title":"Student Engineer",
+        "organization":"CodeNext by Google",
+        "date":"July 2018 - June 2022",
+        "desc":"Completed CodeNext's rigorous two-year computer science fundamentals program, Team Edge, focused on loops, conditionals, functions, data types, classes, objects, JSON, and APIs through Web and Android projects. Attained proficiency in Android App development with Object-Oriented programming (Java), Data storage (Firebase), and APIs by creating 3 end-of-term projects: Star Wars Trivia, Virtual Pet, Rock, Paper, Scissors. Engaged in 15+ leadership and computer science 8-week clubs and workshops, including React Club, Machine Learning Club, Linux System Admin Club, Android Club, and iOS Club, exposing myself to various technologies.",
+        "icon":"bi bi-mortarboard-fill",
+        "bgcolor":"bg-success"
+    },
+    {
+        "title":"Data Analytics Intern",
+        "organization":"San Fransisco Municipal Transportation Agency, SFMTA",
+        "date":"September 2021 - April 2022",
+        "desc":"Improved data-driven insights into transit operator infractions by validating and inputting 1,000+ discipline reports into the Intelex platform, thereby supporting future transit operator training strategies. Tracked and organized 25+ cases, including email and voicemail, for the HR ADA Team, providing critical support during a difficult period of understaffing and increased COVID-19 vaccination exception requests.",
+        "icon":"bi bi-bar-chart-fill",
+        "bgcolor":"bg-secondary"
+    }
+]

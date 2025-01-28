@@ -1,0 +1,14 @@
+[
+    {
+        "school":"Texas Woman's University (TWU)",
+        "dates":"Expected: May, 2026",
+        "degree":"Bachelor of Science in Computer Science with a Minor in Mathematics",
+        "bgcolor":"bg-success"
+    },
+    {
+        "school":"University of California, San Diego (UCSD)",
+        "dates":"September 2022 - June 2023",
+        "degree":"",
+        "bgcolor":"bg-primary"
+    }
+]
