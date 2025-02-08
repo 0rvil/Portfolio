@@ -5,6 +5,7 @@ html{
 body {
     background-color: #1f1f1f;
     color: #ffffff;
+    font-family: "Nunito";
 }
 
 header,
@@ -230,5 +231,43 @@ h6, .card-data {
   height: 100vh;            /* Make the section take full viewport height */
   text-align: center;       /* Centers text horizontally */
 }
+
+/* Hero section styles */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  background: url('/hero_img.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  color: white;
+}
+
+/* Overlay for better text visibility */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+}
+
+/* Content inside hero section */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 40%;
+  margin-right: 5%; /* Fine-tune positioning */
+}
+
+/* Space below the hero section */
+.container {
+  padding-top: 2rem;
+}
+
 
 
