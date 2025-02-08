@@ -5,6 +5,38 @@
     "longDesc":"<p>The earliest project I worked on, Jerry&#39;s Quest (originally titled Foxy&#39;s Quest), is a 2D platformer where Jerry embarks on a journey to find a portal that will lead him home. I created this project in 5th grade as part of an after-school initiative led by a teacher to engage a small group of high-achieving and interested students in game design using Scratch, a block-based programming platform for animation, games, and design.</p> <p> In this class, we explored topics such as sprites, scenes, and simple conditional game logic, including using velocity along the y-axis to simulate gravity and enabling sprites to move and interact with the game world. One element I was particularly proud of was a cheat code hidden in the first level. If the sprite clips a corner and touches the pink, rose-colored blob, it will teleport the player to the penultimate level.</p> <p> In hindsight, it&#39;s easy to critique this project and identify areas for improvement, but at the time, it represented the best I could achieve with the resources and experience I had.</p> <p>It was incredibly fun to build as a fifth-grader! I encourage you to check it out if you&#39;d like.</p>",
     "image": "Project_Display_Images/scratch/scratch.png",
     "technologies": ["Scratch"],
+    "images" : [
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/start.png",
+            "caption":"The start page, a background of a black square void with a 3d perspective outlined by blue squares, explaining the backstory of Jerry."
+        },
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/level_1.png",
+            "caption":"The first level of Jerry&#39;s quest."
+        },
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/penultimate_level.png",
+            "caption":"The penultimate level of Jerry&#39;s quest."
+        },
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/final_level.png",
+            "caption":"The final level of Jerry&#39;s quest."
+        },
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/complete_level.png",
+            "caption":"Jerry&#39;s quest has reached the end, he just has to cross the green portal."
+        },
+        {
+            "type":"image",
+            "path":"Projects/Jerrys_Quest/end.png",
+            "caption":"The end page of jerry&#39;s quest, this page references the original title of the game stating, watch out for Foxy&#39;s quest 2."
+        }
+    ],
     "tags": ["Game Development", "Personal Project"],
     "date": "May 2015",
     "link":["https://scratch.mit.edu/projects/58211400/"]
@@ -15,6 +47,13 @@
         "longDesc":"This project is a simple yet creative recreation of a watermelon, developed during an orientation session for CodeNext. It served as an introduction to the p5.js library and coding in JavaScript, allowing me to explore foundational programming concepts and creative coding techniques.",
         "image": "Project_Display_Images/p5js/watermelon_p5js.png",
         "technologies": ["p5.js", "JavaScript"],
+        "images" : [
+            {
+                "type":"image",
+                "path":"Projects/p5js_watermelon/watermelon_p5js.png",
+                "caption":"A watermelon drawn on a purple background with elipses and arcs."
+            }
+        ],
         "tags": ["Art", "Code Next Project"],
         "date": "July 2018",
         "link":["https://editor.p5js.org/orvile@csedge.org/sketches/SyRpi0mVX"]
@@ -25,6 +64,18 @@
         "longDesc":"This p5.js illustration showcases a soccer player whose uniform kit changes with a press of the spacebar. The project was developed during the CodeNext Foundations session, where I gained exposure to new technologies and explored the fields of computer science and leadership. If I were to revisit this project, I would aim to incorporate more intricate details to enhance realism and bring the illustration to life.",
         "image": "Project_Display_Images/p5js/football_player_p5js.png",
         "technologies": ["p5.js", "JavaScript"],
+        "images" : [
+            {
+                "type":"image",
+                "path":"Projects/p5js_Football_Player/football_player_p5js.png",
+                "caption":"An image of a football/soccer player with a red kit."
+            },
+            {
+                "type":"image",
+                "path":"Projects/p5js_Football_Player/football_player_alt.png",
+                "caption":"The image after pressing the space bar of the soccer player, now with a white and black kit. The player also has a goatee."
+            }
+        ],
         "tags": ["Art", "Code Next Project"],
         "date": "July 2018",
         "link":["https://editor.p5js.org/orvile@csedge.org/sketches/SJS9II8N7"]
@@ -35,6 +86,13 @@
         "longDesc":"<p>This p5.js animation features an apple with a leaf oscillating around its stem. The project was created during the CodeNext Foundations session.</p> <p> Important Note: This animation includes flashing imagery, which may not be suitable for individuals with photosensitive epilepsy.</p> <p>If I were to revisit this project, I would replace the random color generator with an array of solid colors. Additionally, I would implement smoother and more gradual color transitions to create a less intense visual experience for viewers.</p>",
         "image": "Project_Display_Images/p5js/apple_p5js.png",
         "technologies": ["p5.js", "JavaScript"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/p5js_Apple_Animation/apple_p5js.png",
+                "caption":"A still image from the animation depicting a purple apple with an off white background."
+            }
+        ],
         "tags": ["Art", "Code Next Project"],
         "date": "August 2018",
         "link":["https://editor.p5js.org/orvile@csedge.org/sketches/SyZ91BAN7"]
@@ -45,15 +103,51 @@
         "longDesc":"<p>This project is an implementation of Rock, Paper, Scissors for Android, developed using XML and Java as part of my winter end-of-term project for CodeNext&#39;s Team Edge program. The first year of Team Edge focused on website development and computer science fundamentals, while the second year, which I was enrolled in, emphasized Android app development and applying those fundamentals in a new environment. </p> <p>Due to my efforts, I was honored to be one of two Team Edge members selected to present my project at the 2019 Winter End-of-Term Showcase.</p> <h5> Technical Overview </h5> <p>The app uses Java&#39;s Random class to simulate the CPU&#39;s choice. When the user selects an option, the background color of the corresponding button changes to a random color. A counter tracks the number of games won by the user versus the computer. This project marked an early stage in my Android development journey, where I was becoming familiar with the IDE, Java, XML, and the process of translating concepts into app functionality. </p> <h5>The Showcase Story </h5><p>A few days before the showcase, I met with one of the program coaches to confirm that everything was ready for my presentation. I uploaded my project files to GitHub, believing they would be preloaded onto a computer on the day of the event. Confident in my preparation, I arrived at the showcase and greeted the coaches and other attendees.</p> <p>Ten minutes before the event started, the coach asked me, \"You&#39;re all set to present, right? You have your computer with you?\" To my surprise, there had been a miscommunication—I was supposed to bring my laptop, but I didn&#39;t know this. My co-presenter, who was informed of this the day prior, had their setup ready to go. </p> <p>Though our implementations were similar in structure, my co-presenter had used different elements to represent \"Rock, Paper, and  Scissors,\" giving our apps distinct designs. While it would have been possible to present just their app, I was determined to showcase mine.</p> <p>Fortunately, I had experience with Android app development from a previous personal project I had worked on with a coach during Year 1 of Team Edge. Without hesitation, I asked my co-presenter, \"Can I borrow your computer?\" Logging into GitHub, I downloaded my project files—the XML file for the UI and the Java file that handled the game logic. </p> <p>With these files, I quickly integrated my app into theirs. I added a home screen with two buttons: one leading to their app and the other to mine. A few lines of code were all it took to implement the intent logic, which allowed the apps to function seamlessly as part of a single project. After testing the navigation and verifying that my app worked properly, I was ready to present. </p> <p>Despite the earlier hiccup, the presentation went smoothly. I engaged the audience by inviting participants to play against the computer in a best-of-three game. Although the audience team lost 1-2, the interaction was fun and lively.</p> <p>Afterward, the coach gave closing remarks, noting that we hadn&#39;t yet learned how to create apps with multiple screens, making my last-minute workaround an achievement in itself. This experience taught me the importance of preparation and adaptability, and I look back on it fondly as a valuable learning moment.</p> <p>Those were fun times! I hope not to run into the same issue again someday!</p>", 
         "image": "Project_Display_Images/android_apps/android_rps.png",
         "technologies": ["Android", "Android Studio", "Java", "XML"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/rps_android_app/rps_android_app_default.png",
+                "caption":"The default screen displaying a 0-0 score with question marks displaying for the options."
+            },
+            {
+                "type":"image",
+                "path":"Projects/rps_android_app/rps_android_app.png",
+                "caption":"Rock Paper Scissor app displaying a score of 2-0 in favour of the player. The round has ended and rock beat scissors. The buttons are also randomized colors."
+            },
+            {
+                "type":"image",
+                "path":"Projects/rps_android_app/4C1A5791.jpg",
+                "caption":"Me presenting at the Winter showcase."
+            }
+
+        ],
         "tags": ["App Development", "Game Development", "Code Next Project"],
         "date": "December 2019",
         "link":["https://github.com/0rvil/rps"]
     },
     {
-        "title": "Pet Plant Android App",
-        "description": "The Pet Plant app, created for CodeNext's Team Edge Year 2, is a virtual plant care game where players nurture a plant through watering and fertilizing to trigger its evolution, using Android's timer and progress bar features for engaging gameplay.",
+        "title": "Virtual Plant Android App",
+        "description": "The Virtual Plant app, created for CodeNext&#39;s Team Edge Year 2, is a virtual plant care game where players nurture a plant through watering and fertilizing to trigger its evolution, using Android&#39;s timer and progress bar features for engaging gameplay.",
+        "longDesc":"<p>The Pet Plant was my final project for the second term of CodeNext&#39;s Team Edge Year 2. The challenge was to build an app that implemented a virtual pet. While many of my peers created animal-based pets in a Tamagotchi style, I decided to take a different approach by designing a virtual plant. This choice allowed me to visually showcase the plant&#39;s growth and evolution as it was nurtured and cared for.</p> <h5>How It Works</h5> <p>Each level in the app features a two-minute timer. During this time, the objective is to water and fertilize your plant. If, by the end of the timer, the plant&#39;s water and fertilizer levels are between 80 and 110 percent, the plant evolves—similar to a Pokémon. As the levels progress, the plant requires more care, with water and fertilizer levels depleting faster.</p> <p>The app relies heavily on Android&#39;s timer and progress bar features to create an engaging gameplay experience. My favorite part of this project was designing the plant&#39;s evolution stages. I was able to find a sufficient number of images to create a reasonable number of levels, making the growth progression satisfying and visually rewarding.</p> <h5>Challenges and Improvements</h5> <p>Although I enjoyed the project, I recognized that once the plant reaches its maximum evolution, the app loses replayability. If I were to rebuild this app, I would focus on adding mini-games that allow users to collect other plants and create a virtual garden. Users could then share their gardens with others, trade plants, and interact in a community-driven experience, increasing the app&#39;s longevity and appeal.</p> <p>Initially, I had considered making the plant&#39;s growth dependent on the amount of time users spent away from their phone. However, I realized this concept was counterintuitive—encouraging users to forget about their phone could lead them to forget about the app entirely. Additionally, implementing features like tracking phone activity and accessing such data would have posed significant technical challenges.<p>",
         "image": "Project_Display_Images/android_apps/android_plant.png",
         "technologies": ["Android", "Android Studio", "Java", "XML"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://youtube.com/embed/I9SjRWJWKXU",
+                "caption":"A youtube video showcasing the Virtual Plant App in action. The video starts off with the user caring for the app, and evolving. The user then proceeds to not care for their plant, watching it devolve and ultimately ending the game."
+            },
+            {
+                "type":"image",
+                "path":"Projects/virtual_plant_android_app/pet_plant_app.png",
+                "caption":"The splash screen for the virtual plant android app."
+            },
+            {
+                "type":"image",
+                "path":"Projects/virtual_plant_android_app/pet_plant_android_app.png",
+                "caption":"The evolved plant."
+            }
+        ],
         "tags": ["App Development", "Code Next Project"],
         "date": "February 2020",
         "link":["https://github.com/0rvil/petApp"]
@@ -64,6 +158,13 @@
         "longDesc":"",
         "image": "Project_Display_Images/android_apps/android_fitastic.png",
         "technologies": ["Android", "Android Studio", "Java", "XML"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/fitastic_android_app/fitastic.png",
+                "caption": "The main menu of the Fitastic android app."
+            }
+    ],
         "tags": ["App Development", "Code Next Project"],
         "date": "April 2020",
         "link":["https://github.com/0rvil/Team-Edge-Y2-T2"]
@@ -74,26 +175,83 @@
         "longDesc":"",
         "image": "Project_Display_Images/android_apps/android_covid_tracker.png",
         "technologies": ["Android", "Android Studio", "Java", "XML"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://youtube.com/embed/YLoyvO1GFiA",
+                "caption": "A video demo for the Covid-19 tracker app. The user makes a query for the cases in Italy and then proceeds to add US to their favorites list and display that data."
+            },
+            {
+                "type":"image",
+                "path":"Projects/covid_tracker_app/covid_tracker.png",
+                "caption":"The app screen showcasing the number of Covid-19 cases in Italy. "
+            }
+        ],
         "tags": ["App Development", "Code Next Project"],
         "date": "April 2020",
         "link":["https://github.com/0rvil/COVIDTracker"]
     },
     {
         "title": "Star Wars Trivia Android App",
-        "description": "My final capstone project for CodeNext Team Edge. ",
-        "longDesc":"",
+        "description": "My final capstone project for CodeNext Team Edge.",
+        "longDesc":"<h5>Star Wars Trivia App</h5><p>A Star Wars trivia app powered by the <strong>SWAPI API</strong> and <strong>Google Firebase</strong>. This app features over <strong>2,000+ unique and randomized trivia questions</strong> across six categories, covering all corners of the Star Wars universe.</p><h5>Project Requirements</h5><p>For the final project, we had a lot of room for freedom and creativity. The guidelines were straightforward:</p><ul><li>You must build an <strong>Android app</strong>.</li><li>You decide how complex it is, but try to make your app <strong>interactive</strong>.</li><li>You must use an <strong>API, Firebase, or a third-party library</strong> in your app.</li></ul><h5>Ideation</h5><p>For this project, I decided to use the <strong>Star Wars API (SWAPI)</strong>—an open API that doesn&#39;t require an access key. It was the first recommendation on a list of open APIs, and after reviewing the documentation, I found it simple enough to implement.</p><p>My approach was a little <strong>backward</strong>—instead of starting with an idea and finding an API to support it, I found an API first and then built an idea around it. Ultimately, the best way to leverage the SWAPI structure was to create a <strong>trivia app</strong>.</p><h5>Why a Trivia App?</h5><p>The SWAPI organizes Star Wars data into six categories:</p><ul><li><strong>Characters</strong></li><li><strong>Planets</strong></li><li><strong>Films</strong></li><li><strong>Species</strong></li><li><strong>Vehicles</strong></li><li><strong>Starships</strong></li></ul><p>Each category contains multiple objects, and every object has the same set of attributes. This made it easy to generate trivia questions dynamically by creating a <strong>boilerplate format</strong>, where I could plug in an object name and a corresponding attribute to form a question.</p><p>By running the calculations, this approach generated <strong>2,160 potential questions</strong> (hence the \"2,000+ randomized questions\" claim).</p><h5>Compromises & Challenges</h5><p>Since the questions were generated dynamically, <strong>not all of them were perfectly structured grammatically</strong>. It was a necessary trade-off to ensure all questions rendered properly. If this were a published app, I would explore alternative methods—like hardcoding question-answer pairs—but that would be a time-intensive process and would limit the ability to <strong>dynamically add new questions</strong>.</p><h5>Features</h5><p>The six categories made it easy to <strong>scale the app&#39;s content</strong>—I only needed to design one trivia game and reuse that component for all categories.</p><h5>Core Trivia Gameplay</h5><ul><li>One-minute timer with a progress bar</li><li>A question displayed at the top of the screen</li><li>Three buttons for answer choices</li><li>A results dialog box at the end of the timer</li></ul><h5>Firebase Integration</h5><ul><li><strong>User authentication</strong> (sign in with a profile picture)</li><li><strong>Leaderboard</strong> (top scores stored in Firebase)</li><li><strong>Friend system</strong> (search users by email and send friend requests)</li><li><strong>Multiplayer Mode</strong> (challenge a friend to a <strong>best-of-three</strong> trivia match)</li></ul><h5>The Multiplayer Struggle</h5><p>Implementing multiplayer mode was <strong>the most difficult challenge</strong>, and unfortunately, it ended up being <strong>buggy and unusable</strong>. My initial approach was to create <strong>game rooms</strong>, storing both user IDs and using them to look up the game data.</p><p><strong>In hindsight</strong>, a better approach would have been to:</p><ul><li>Assign a <strong>game room attribute</strong> to each user</li><li>Store the game room ID as a <strong>combination of both user IDs</strong></li><li>Search for the exact game room ID instead of scanning all rooms</li></ul><p>At the time, multiplayer was slightly beyond my abilities. Given the other features I was implementing, I <strong>accepted that it wasn&#39;t a must-have for the minimum viable product (MVP)</strong>. If I revisit this project, multiplayer is something I&#39;d like to get working properly.</p><h5>Final Thoughts</h5><p>This project was a <strong>great test of my planning and problem-solving skills</strong>. I spent more time designing features and mapping out logic on paper than I did coding (though debugging took its fair share of time too).</p><p>Looking ahead, I&#39;d like to <strong>port this project to another platform</strong>—maybe the <strong>web</strong>. Regardless, I&#39;m proud of the work I put into this app and the lessons I learned along the way.</p>",
         "image": "Project_Display_Images/android_apps/android_sw_trivia.png",
         "technologies": ["Android", "Android Studio", "Java", "XML", "Firebase", "Star Wars API (SWAPI)"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/star_wars_trivia_andorid_app/star_wars_trivia_home_page.png",
+                "caption":"The home page for the Star Wars Trivia App."
+            },
+            {
+                "type":"image",
+                "path":"Projects/star_wars_trivia_andorid_app/star_wars_trivia_category.png",
+                "caption":"The categories page for the Star Wars Trivia App."
+            },
+            {
+                "type":"image",
+                "path":"Projects/star_wars_trivia_andorid_app/star_wars_trivia_q1.png",
+                "caption":"A sample trivia question asksing, What is Bib Fortuna&#39;s Eye Color?"
+            },
+            {
+                "type":"image",
+                "path":"Projects/star_wars_trivia_andorid_app/star_wars_trivia_q2.png",
+                "caption":"A sample trivia question asking, what is Darth Maul&#39;s Gender?"
+            },
+            {
+                "type":"image",
+                "path":"Projects/star_wars_trivia_andorid_app/star_wars_trivia_app.png",
+                "caption":"The app logo, created by Miguel Patino."
+            }
+        ],
         "tags": ["App Development", "Game Development", "Code Next Project"],
         "date": "July 2020",
-        "link":["https://github.com/CodeNext-TeamEdgeY2/Star_Wars_Trivia"]
+        "link":["https://github.com/0rvil/Star_Wars_Trivia"]
     },
     {
         "title": "DreamTime",
         "description": "DreamTime is an Android App for relaxation.",
-        "longDesc":"",
+        "longDesc":"<p>DreamTime.</p><p>It&#39;s an interesting project, to say the least. I was only a couple of months into the CodeNext Team Edge program—really fresh into programming—when I decided to start this project.</p><p>I was part of an entrepreneurship class that required us to solve a problem, create a product, and sell it to a target audience.</p><p>And I, for the life of me, could not come up with a product idea. All my peers were pitching their ideas, and while I respected them, I couldn&#39;t see myself following their visions. I wasn&#39;t committed to their products.</p><p>So I stopped and asked myself:</p><p>\"What do I know how to do? What am I good at?\"</p><p>Well, I was learning to program in CodeNext—so why limit myself to the physical realm? I firmly believed I wasn&#39;t about to create the next groundbreaking product of the 21st century. That wasn&#39;t going to happen.</p><p>But the CodeNext generation (cohort/class) ahead of me was learning to make Android apps. I knew the instructor, and I could ask for help to build an app.</p><p>That settled it. I was going to build an app.</p><h5>Now, what kind of app would it be?</h5><p>Picture yourself in high school. All your peers are busy, and you&#39;re told you can only have two of these three things:</p><p>1. A social life </p><p>2. Good grades</p><p>3. Enough sleep</p><p>Sleep. Relaxation. The number of times I heard my peers talk about their lack of sleep—that was the problem. The solution? An app that helps them sleep.</p><p>Sleep, relax, dream. DreamTime.</p><p>I invested a lot of time developing DreamTime and trying to turn it into a business. I managed a team of four while also being the sole technical contributor. We pitched DreamTime a couple of times, and I even directed an infographic commercial for it in my Studio class: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=pcmPOBxb3ms\">Watch it here</a>.</p><p>In the end, DreamTime made it to the App Store. It was initially a paid app, but within a week, we made it free. The business generated most of its profit through our other venture - selling t-shirts with our logo on them.</p><p>It was a rollercoaster of an experience, full of challenges and obstacles. But I learned a lot from it, and it made me a better developer, entrepreneur, and individual.</p>",
         "image": "Project_Display_Images/android_apps/android_dreamtime.png",
         "technologies": ["Android", "Android Studio", "Java", "XML", "Firebase"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/DreamTime/dt_logo.png",
+                "caption":"The DreamTime logo, an owl sitting on a branch with a dark blue backdrop filled with yellow stars."
+            },
+            {
+                "type":"image",
+                "path":"Projects/DreamTime/app_store.png",
+                "caption":"The DreamTime app on the Google Play Store."
+            },
+            {
+                "type":"image",
+                "path":"Projects/DreamTime/shirts.jpg",
+                "caption":"The shirts we were selling for DreamTime."
+            }
+
+    ],
         "tags": ["App Development", "Code Next Project"],
         "date": "July 2020",
         "link":["https://github.com/0rvil/DreamTime"]
@@ -104,26 +262,47 @@
         "longDesc":"",
         "image": "Project_Display_Images/iOS_apps/ios_project_1.png",
         "technologies": ["iOS", "Xcode", "Swift"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/ios_project_1/project_1_iOS.png",
+                "caption":"A still showing an image rendered on the iOS virtual machine."
+            }
+    ],
         "tags": ["App Development", "Code Next Project"],
         "date": "April 2020",
         "link":["https://github.com/0rvil/iOS-Club-Project1"]
     },
     {
         "title": "iOS Club - Project 2",
-        "description": "An iOS app where you guess the flag.",
+        "description": "An iOS app where you guess the Country based on the flag.",
         "longDesc":"",
         "image": "Project_Display_Images/iOS_apps/ios_project_2.png",
         "technologies": ["iOS", "Xcode", "Swift"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/ios_project_2/project_2_iOS.png",
+                "caption":"A series of flags being displayed as part o fthe app."
+            }
+    ],
         "tags": ["App Development", "Game Development", "Code Next Project"],
         "date": "May 2020",
         "link":["https://github.com/0rvil/iOS-Club-Project2"]
     },
     {
         "title": "iOS Club - Project 4",
-        "description": "An iOS app made for iPads where your spaceship aims to avoid obstacles.",
+        "description": "An iOS app made for iPads where you guide your spaceship as far as possible while avoiding perilous obstacles.",
         "longDesc":"",
         "image": "Project_Display_Images/iOS_apps/ios_project_4.png",
         "technologies": ["iOS", "Xcode", "Swift"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/ios_project_4/project_4_iOS.png",
+                "caption":"A still from the game where the rocket is navigating obstacles such as televisions, hammers, and basketballs in space."
+            }
+    ],
         "tags": ["App Development", "Game Development", "Code Next Project"],
         "date": "June 2020",
         "link":["https://github.com/0rvil/iOS-Club-Project-4"]
@@ -134,6 +313,11 @@
         "longDesc":"",
         "image": "Project_Display_Images/react/todo_list.png",
         "technologies": ["React", "JavaScript"],
+        "images":[{
+            "type":"image",
+            "path":"Projects/react_todo_list/react_todo_list.png",
+            "caption": "On the top their is a list of tasks, an editable text field to add new tasks. Below is the json code for the tasks."
+        }],
         "tags": ["Web Development", "Code Next Project"],
         "date": "February 2022",
         "link":["https://code-next-react-todo-skeleton-jexjox.stackblitz.io/"]
@@ -144,6 +328,13 @@
         "longDesc":"",
         "image": "Project_Display_Images/flask_dashboards/fruit_x_gme_dashboard.png",
         "technologies": ["Python", "Flask"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/fruit_and_gme_dashboard/plotly_dash_data_viz.png",
+                "caption":"A dashboard showing the Fruit data made with plotly."
+            }
+        ],
         "tags": ["Code Next Project"],
         "date": "March 2021",
         "link":["https://github.com/0rvil/CodeNext-Visualizing-Data-With-Flask"]
@@ -154,6 +345,13 @@
         "longDesc":"",
         "image": "Project_Display_Images/hopper/hopper.png",
         "technologies": ["JavaScript"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/hopper_game/hopper.png",
+                "caption":"An image captured from the hopper game. The player is the red block trying to avoid the obstacles to reach the other side."
+            }
+        ],
         "tags": ["Game Development", "Code Next Project"],
         "date": "March 2021",
         "link":["https://replit.com/@OrvilEscalante/CodeNext-Game-Dev-Workshop"]
@@ -164,6 +362,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/laser_cutting/spider-man_keychain.png",
         "technologies": ["Laser Cutting", "LibreOffice"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Spider-Man_Key_Chain/spider-man_key_chain.jpeg",
+                "caption":"The final result from laser cutting the keychain."
+            },
+            {
+                "type":"image",
+                "path":"Project_Display_Images/laser_cutting/spider-man_keychain.png",
+                "caption":"The office libre file showing the keychain design."
+            }
+        ],
         "tags": ["Art", "Code Next Project"],
         "date": "May 2022",
         "link":["https://drive.google.com/file/d/1Y4B2lIBfL30z0hkFg-lXJnjOVj3vDlz1/view?usp=sharing"]
@@ -174,6 +384,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/laser_cutting/living_hinge.png",
         "technologies": ["Laser Cutting", "LibreOffice"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Living_Hinge_Prototype/living_hinge.jpg",
+                "caption":"The final result from laser cutting the living hinge."
+            },
+            {
+                "type":"image",
+                "path":"Project_Display_Images/laser_cutting/living_hinge.png",
+                "caption":"The office libre file showing the living hinge design."
+            }
+        ],
         "tags": ["Art", "Code Next Project"],
         "date": "May 2022",
         "link":["https://drive.google.com/file/d/1dDRlpjHX8BwiUZbsNvJpd1mqsVKSFACi/view?usp=sharing"]
@@ -184,6 +406,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/react/wordle.png",
         "technologies": ["React", "JavaScript"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/react_wordle/wordle.png",
+                "caption": "A sample wordle game"
+            }, 
+            {
+                "type":"image",
+                "path":"Projects/react_wordle/wordle_presentation.jpg",
+                "caption":"Me presenting at the CodeNext graduation my final project created in the React class."
+            }
+        ],
         "tags": ["Game Development", "Code Next Project"],
         "date": "June 2022",
         "link":["https://stackblitz.com/edit/wordle-codenext-orvil?file=src%2FApp.js"]
@@ -191,9 +425,21 @@
     {
         "title": "Rock Paper Scissors iOS App",
         "description": "My 2020 Independent project for CodeNext: Rock Paper Scissors iOS app made with Swift and XCode.",
-        "longDesc":"",
+        "longDesc":"<p></p><h5>Evolution from Prior Implementation</h5><p></p>",
         "image": "Project_Display_Images/iOS_apps/ios_rps.png",
         "technologies": ["iOS", "Xcode", "Swift"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://youtube.com/embed/7T7Ofz-V_Bs",
+                "caption":"A video demo of my rock paper scissors iOS app. I lose to the CPU 6-9, but whose keeping tally right?"
+            },
+            {
+                "type":"image",
+                "path":"Projects/rps_iOS_app/rps_iOS_app.png",
+                "caption": "iOS app rendition of Rock, Paper, Scissors showing the user winning the game against the computer by picking rock."
+            }
+        ],
         "tags": ["App Development", "Game Development"],
         "date": "June 2020",
         "link":["https://github.com/0rvil/iOS-Rock-Paper-Scissors"]
@@ -201,9 +447,21 @@
     {
         "title": "Dog Animation",
         "description": "A dog animation made for the DreamTime app using Adobe Illustrator and Adobe After Effects",
-        "longDesc":"",
+        "longDesc":"This dog animation was created for the DreamTime app. The dog in the animation is part of a set of original co-illustrations made for the DreamTime app. This specific animation was featured in the app under the music section. For the animation, I used after effects to wag its tail and make the rain fall. In addition to that I worked on the background for this animation.",
         "image": "Project_Display_Images/adobe_animations/dog_animation.png",
         "technologies": ["Adobe After Effects", "Adobe Illustrator"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://www.youtube.com/embed/_tTEOl879N4",
+                "caption":"A video animation of a dog wagging its tail as it sleeps on a red pillow."
+            }, 
+            {
+                "type":"image",
+                "path":"Projects/dog_animation/dog_animation.png",
+                "caption":"A video still from the dog animation."
+            }
+        ],
         "tags": ["Art", "Personal Project"],
         "date": "May 2019",
         "link":["https://www.youtube.com/shorts/_tTEOl879N4"]
@@ -214,6 +472,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/adobe_animations/owl_animation.png",
         "technologies": ["Adobe After Effects", "Adobe Illustrator"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://drive.google.com/file/d/1lJP_uVm65eaTiEz8G3Xy55y-r4CuVLkJ/view?usp=sharing",
+                "caption":"A video of an unused animation for DreamTime. The owl flaps its wings as it lands on the branch. The screen goes from black to blue and the moon appears."
+            },
+            {
+                "type":"image",
+                "path":"Projects/owl_animation/owl_animation.png",
+                "caption": "A still image taken from the owl animation."
+            }
+        ],
         "tags": ["Art", "Personal Project"],
         "date": "April 2019",
         "link":["https://drive.google.com/file/d/1lJP_uVm65eaTiEz8G3Xy55y-r4CuVLkJ/view?usp=sharing"]
@@ -224,6 +494,33 @@
         "longDesc":"My 2021 Independent project for CodeNext: A movie finder app made with Flutter, Flask, TMDB API, Google Cloud App Engine. The app makes calls to a flask server, hosted on Google Cloud App Engine, which makes API calls to TMDB. The app was made in Flutter which allows users to engage on iOS and Android platforms. A special thanks to my mentor Imad Karriaper, who provided me with unwavering support throughout the process!",
         "image": "Project_Display_Images/flutter/movie_finder_app.png",
         "technologies": ["Flutter", "Dart", "Android Studio", "Xcode"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/flutter_movie_finder_app/flutter_movie_finder_app.png",
+                "caption":"A side by side of the Android (left) and iOS (right) virtual devices running the Flutter app."
+            },
+            {
+                "type":"image",
+                "path":"Projects/flutter_movie_finder_app/movie_finder_home_ios.png",
+                "caption":"The home page of the app displayed on an iOS device."
+            },
+            {
+                "type":"image",
+                "path":"Projects/flutter_movie_finder_app/movie_finder_load_ios.png",
+                "caption":"A still of the app fetching movies from the API on an iOS device."
+            },
+            {
+                "type":"image",
+                "path":"Projects/flutter_movie_finder_app/movie_finder_search_ios.png",
+                "caption":"The results query from fetching the movies from the API, the query was for Spider-Man."
+            },
+            {
+                "type":"image",
+                "path":"Projects/flutter_movie_finder_app/movie_finder_movie_ios.png",
+                "caption":"The movie page listing the details: date, title, and synopsis."
+            }
+        ],
         "tags": ["Featured"],
         "date": "June 2021",
         "link":["https://github.com/0rvil/movie_finder"]
@@ -234,6 +531,49 @@
         "longDesc":"My 2022 and final Independent project for CodeNext: CIFAR 10 Image classifier. This project is a Machine Learning Model that classifies images from 10 categories. A special thanks to R.E Wolfe who helped me tremendously throughout the process!",
         "image": "Project_Display_Images/machine_learning/cifar_10_cnn.png",
         "technologies": ["Python", "TensorFlow", "Numpy", "Keras", "Matplotlib", "CNN"],
+        "images" : [
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/data_sample.png",
+                "caption":"A data sample of a Frog, located at index 0 in our dataframe."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/data_samples.png",
+                "caption":"A subset of samples of data from the 10 different classes."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/augmented_data_flipped.png",
+                "caption":"An image of a frog. The original is on the left and the flipped image on the right."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/augmented_data_brightness.png",
+                "caption":"An image of a man on a horse. The original on the left and the brightened image on the right."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/augmented_data_contrasted.png",
+                "caption":"An Image of a duck being feed. The original on the left and the higher contrast image on the right."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/results.png",
+                "caption":"Results from applying the Convolutional Neural Network models. The digit classifier obtained a 68% accuracy, my mentors model did 76% accuracy, and the augmented model did 79% accuracy."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/visualized_results.png",
+                "caption":"A visualization of a subset of classified samples from the Augmented model predictor."
+            },
+            {
+                "type":"image",
+                "path":"Projects/CIFAR_10_CNN/predictions_by_class.png",
+                "caption":"A uniform distribution best describes the distribution of predictions for each class."
+            }
+
+        ],
         "tags": ["Featured", "AI & Machine Learning", "Professional Project"],
         "date": "June 2022",
         "link":["https://colab.research.google.com/drive/1Rnw2PAXdiBfoe3ISLPx58qlWwZVfg4pO#scrollTo=ufLMQ1W3r3Io"]
@@ -244,16 +584,80 @@
         "longDesc":"",
         "image": "Project_Display_Images/machine_learning/digit_classifier.png",
         "technologies": ["Python", "Numpy", "TensorFlow", "Keras", "Matplotlib"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/mnist_digit_classifier/training_sample.png",
+                "caption":"A single visualization of the digit taken from the training sample."
+            },
+            {
+                "type":"image",
+                "path":"Projects/mnist_digit_classifier/training_samples_dist.png",
+                "caption":"A histograph of the distribution of training samples by category."
+            },
+            {
+                "type":"image",
+                "path":"Projects/mnist_digit_classifier/results.png",
+                "caption":"A sample subset of the testing classes showing the input and its predicted label."
+            },
+            {
+                "type":"image",
+                "path":"Projects/mnist_digit_classifier/accuracy.png",
+                "caption":"The accuracy results showcasing a 98% results from the tests."
+            }
+        ],
         "tags": ["AI & Machine Learning", "Professional Project"],
         "date": "March 2022",
         "link":["https://colab.research.google.com/drive/1Ei8L5-vh8QEYQhr_YeMoRbb_ZFR3OHjl"]
     },
     {
-        "title": "Alphaword",
+        "title": "AlphaWord",
         "description": "AlphaWord is a Java-based word-guessing game inspired by Wordle, featuring three categories: Classic, Themed Collections, and Tower of Lexicon, offering varied challenges for players to enjoy.",
-        "longDesc":"Welcome to AlphaWord, a word-guessing game inspired by the New York Times classic, Wordle, originally created by Josh Wardle. This Java-based Processing application offers players three engaging categories to choose from: Classic, Themed Collections, and Tower of Lexicon. Classic: The game as you know it. Get 6 chances to guess a 5-letter word. Themed Collections: Guess the five letter word based on the theme. There are 3 themes to choose from summer, autumn, and winter. Tower of Lexicon: Lexicon has been trapped in a tower. Can you beat all 10 levels and reach the top?Be careful, the further up you go the harder it gets!",
+        "longDesc":"Welcome to AlphaWord, a word-guessing game inspired by the New York Times classic, Wordle, originally created by Josh Wardle. This Java-based Processing application offers players three engaging categories to choose from: Classic, Themed Collections, and Tower of Lexicon. Classic: The game as you know it. Get 6 chances to guess a 5-letter word. Themed Collections: Guess the five letter word based on the theme. There are 3 themes to choose from summer, autumn, and winter. Tower of Lexicon: Lexicon has been trapped in a tower. Can you beat all 10 levels and reach the top? Be careful, the further up you go the harder it gets!",
         "image": "Project_Display_Images/processing/alphaword.png",
         "technologies": ["Processing", "Java"],
+        "images" : [
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/SplashScreen.png",
+                "caption":"AlphaWord Logo"
+            }, 
+            {
+                "type":"image",
+                "path": "Projects/Alphaword/MainMenu.png",
+                "caption": "Main menu screen where users can select from  three game modes."
+            },
+            {
+                "type":"image",
+                "path": "Projects/Alphaword/Collections.png",
+                "caption":"Collections menu where users can select a theme to play a Wordle based off of."
+            }, 
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/SummerTheme.png",
+                "caption":"The sun is shining and the coconuts are ripe in the Summer Collection."
+            }, 
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/AutumnTheme.png",
+                "caption":"The leaves are falling and its getting chilly in the Autumn Collection."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/WinterTheme.png",
+                "caption":"It&#39;s snowing in the winter collection."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/ClassicGame.png",
+                "caption":"The classic game mode; 6 attempt to guess a 5 letter word."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Alphaword/TowerOfLexicon.png",
+                "caption":"You have 10 levels to reach the top, can you beat them all."
+            }
+        ],
         "tags": ["Featured", "Game Development", "Professional Project"],
         "date": "December 2023",
         "link":["https://github.com/0rvil/AlphaWord_Processing_Final_Project_CSCI_1423"]
@@ -264,6 +668,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/arduino/stop_light_arduino.png",
         "technologies": ["Arduino", "Java"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://www.youtube.com/embed/PHyEdbZoqfw",
+                "caption":"A youtube video showcasing the Stop Light Arduino in action."
+            },
+            {
+                "type":"image",
+                "path":"Projects/stop_light_arduino/stop_light_arduino.png",
+                "caption":"An image of the circuit design for the stop light arduino."
+            }
+    ],
         "tags": ["Hardware"],
         "date": "November 2023",
         "link":["https://youtu.be/PHyEdbZoqfw"]
@@ -274,6 +690,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/arduino/temperature_and_humidity_arduino.png",
         "technologies": ["Arduino", "Java"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://www.youtube.com/embed/YW8uzGvs3aA",
+                "caption":"A youtube video showcasing the LCD Temperature and Humidity Arduino in action."
+            },
+            {
+                "type":"image",
+                "path":"Projects/temp_and_hum_arduino/temperature_and_humidity_arduino.png",
+                "caption":"An image of the circuit design for the LCD Temperature and Humidity arduino."
+            }
+    ],
         "tags": ["Hardware"],
         "date": "November 2023",
         "link":["https://youtu.be/YW8uzGvs3aA"]
@@ -284,6 +712,18 @@
         "longDesc":"",
         "image": "Project_Display_Images/arduino/spooky_lcd_arduino.png",
         "technologies": ["Arduino", "Java"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://www.youtube.com/embed/lwAyIesu7Tg",
+                "caption":"A youtube video showcasing the LCD Temperature and Humidity Arduino in action."
+            },
+            {
+                "type":"image",
+                "path":"Projects/spooky_lcd_arduino/spooky_lcd_arduino.png",
+                "caption":"An image of the circuit design for the LCD Temperature and Humidity arduino."
+            }
+    ],
         "tags": ["Hardware"],
         "date": "October 2023",
         "link":["https://youtu.be/lwAyIesu7Tg"]
@@ -294,26 +734,114 @@
         "longDesc":"",
         "image": "Project_Display_Images/kindergarten/kindergarten_database.png",
         "technologies": ["SQL", "mySQL WorkBench"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Kindergarten_Database/ER_diagram.svg",
+                "caption":"The ER diagram of the Relational Database"
+            }
+    ],
         "tags": ["Featured", "Professional Project"],
         "date": "August 2024",
         "link":["#"]
     },
     {
-        "title": "Student Test Portal",
+        "title": "Exam Test Portal",
         "description": "A computer science test platform that pulls from a bank of 100+ questions and integrates the Gemini API to generate new questions, allowing instructors to manage students, view test reports, and create or add new questions.",
         "longDesc":"Administers students a computer science test that pulls from a bank of over 100+ questions. Also utilizes the Gemini API to make requests to generate new questions with their corresponding answers to add to the test bank. Instructors are able to view reports from the students that have taken the test, add new students into the system, and create new test questions from scratch or the Gemini LLM API. ",
         "image": "Project_Display_Images/test_portal/student_test_portal.png",
         "technologies": ["Java", "Gemini API"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/login.png",
+                "caption":"The user is prompted for their username."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/pass.png",
+                "caption":"The user is now prompted for their password."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/failed.png",
+                "caption":"The user failed to login."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/success.png",
+                "caption":"The user was able to successfully login."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/sample_student_question.png",
+                "caption":"A sample question that a student is displayed as part of their exam."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/student_test_report.png",
+                "caption":"A student test report that is displayed immediately after finishing the exam."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/instuctor_menu.png",
+                "caption":"The instructor menu prompting them to add a new student, print the class statistics, or add new questions to the test bank."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/questions_menu.png",
+                "caption":"The questions menu prompting the instuctor for manual entry of AI generated."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/questions_quantity.png",
+                "caption":"The instructor is asked to select a number between 1 and 5 for the number of questions that will be generated."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/questions_added.png",
+                "caption":"The sample question and answer generated by the LLM are displayed to the instuctor."
+            },
+            {
+                "type":"image",
+                "path":"Projects/student_test_portal/class_stats.png",
+                "caption":"The class report showing perfect scores."
+            }
+
+    ],
         "tags": ["Featured", "Professional Project"],
         "date": "May 2024",
-        "link":["#"]
+        "link":["https://github.com/0rvil/Exam-Test-Portal"]
     },
     {
         "title": "Lifelet",
-        "description": "Lifelet is an online bullet journaling system that won 1st place in the CodeNext 2020 Hackathon website category, allowing users to take notes, track progress, and build community, my contribution for this project was on creating the trackers webpage.",
+        "description": "Lifelet is an online bullet journaling system that won 1st place in the CodeNext 2020 Hackathon website category, allowing users to take notes, track progress, and build community.",
         "longDesc":"A CodeNext 2020 Hacakthon, 1st place winner of the website category. Lifelet is an online bullet journaling system meant to offer users a way to capture their information in bullet point lists. The website offers users the opportunity to take notes, track their progress, and create community. The hackathon took place over the course of one weekend (Friday-Sunday) and was held virtually. I was in charge of the trackers and creating the trackers webpage.",
         "image": "Project_Display_Images/lifelet/lifelet.png",
         "technologies": ["JavaScript", "HTML", "CSS"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Lifelet/main_page.png",
+                "caption":"The home screen of the website, where we explain the mission and goals of online bullet journaling."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Lifelet/tracker_menu.png",
+                "caption":"The menu for the trackers."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Lifelet/financial_tracker.png",
+                "caption":"A sample financial tracker with mock data."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Lifelet/communities.png",
+                "caption":"The forums page where people have listed their posts."
+            }
+
+    ],
         "tags": ["Web Development", "Code Next Project"],
         "date": "June 2020",
         "link":["https://glitch.com/edit/#!/team3hackathon2020?path=index.html%3A1%3A0"]
@@ -324,16 +852,91 @@
         "longDesc":"",
         "image": "Project_Display_Images/machine_learning/fifa_classifier.png",
         "technologies": ["Python", "Sklearn", "Pandas", "Numpy"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/corr_matrix.png",
+                "caption":"A correlation matrix for all the player attributes."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/player_ages_histogram.png",
+                "caption":"A histogram depicting the ages of the players."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/player_overall_and_value.png",
+                "caption":"A graph comparing a players rating to their market value."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/player_dribbling_shooting.png",
+                "caption":"A graph comparing players dribbling to their shooting."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/decision_tree.png",
+                "caption":"A visual representation of the dense decision tree generated."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Fifa_20_Player_Rating_ML_Classifier/mse_results.png",
+                "caption":"The mean squared error results showcasing the decision tree performed the best followed by the knn, linear regression, and the neural network."
+            }
+
+    ],
         "tags": ["AI & Machine Learning", "Code Next Project"],
         "date": "February 2021",
         "link":["https://colab.research.google.com/drive/1-b7C6BF8Sy9VoGHj5spG_hh6kTFnLFKP"]
     },
     {
-        "title": "Instacart Order Clustering",
+        "title": "Instacart Order and Product Clustering",
         "description": "Leveraged algorithms such as KMeans, DBSCAN, and Word2Vec to cluster customer transactions and products.",
         "longDesc":"Led a team in applying clustering and analysis techniques to a large Instacart dataset of 3,421,083 transactions and 206,209 customers. Leveraged KMeans, DBSCAN, and Word2Vec algorithms on product and customer transaction data to reveal product associations and customer purchasing patterns. Used Python with libraries including pandas, numpy, matplotlib, scipy.stats, squarify, and sklearn.",
         "image": "Project_Display_Images/machine_learning/instacart_product_clustering.png",
         "technologies": ["Python", "Keras", "Matplotlib", "Numpy", "DBSCAN", "Word2Vec"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/top_20_purchased_items.png",
+                "caption":"A bar graph of the top 20 most purchased items."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/orders_dow.png",
+                "caption":"The frequency of orders by the day of the week plotted on a bar graph"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/dist_orders.png",
+                "caption":"A distribution of the number of orders by users"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/products_by_aisle.png",
+                "caption":"A tree map of the products by their aisle"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/products_by_department.png",
+                "caption":"A tree map of the products by their department"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/product_clusters.png",
+                "caption":"A 2d visualization of the product clusters generated by KMeans and DBSCAN"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/dbscan_product_clusters.png",
+                "caption":"A tree map of the product clusters returned by the DBSCAN algorithm"
+            },
+            {
+                "type":"image",
+                "path":"Projects/Instacart_Product_Clustering/knn_product_clusters.png",
+                "caption":"A tree map of the product clusters returned by the KMeans algorithm"
+            }
+        ],
         "tags": ["Featured", "AI & Machine Learning", "Professional Project"],
         "date": "Current",
         "link":["https://colab.research.google.com/drive/1VKx6gRjc6d1NtPg1PKcxVotdiM6pYTUX?authuser=1#scrollTo=tyIUQ192nHW5"]
@@ -344,6 +947,13 @@
         "longDesc":"<p>Pooh is off to search for honey 🍯! A personal project where I created a simple animation of Winnie the Pooh floating upwards with some balloons on Procreate.</p> <p> I created this animation by editing each frame. In total there are 17 frames, which are animated in 6 frames per second.</p> <p> In the future I would like to add a background that aligns with the setting of the Hundred Acre Wood. This was my first attempt at animating with Procreate. I like how it turned out!</p>",
         "image": "Project_Display_Images/procreate/winnie_the_pooh_animation.jpeg",
         "technologies": ["Procreate"],
+        "images":[
+            {
+                "type":"video",
+                "path":"https://www.youtube.com/embed/7Cd3jeTOIiI",
+                "caption":"A video animation of winnie the pooh holding four balloons: one red, one blue, one yellow, and one green, as he floats up."
+            }
+        ],
         "tags": ["Art", "Personal Project"],
         "date": "September 2024",
         "link":["https://youtube.com/shorts/7Cd3jeTOIiI?feature=shared"]

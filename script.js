@@ -148,9 +148,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="card" data-bs-toggle="offcanvas" data-bs-target="#projectDetailsOffcanvas" data-project='${JSON.stringify(
             project
           )}'>
-            <img src="${project.image}" class="card-img-top" alt="${
-        project.title
-      }">
+            <img loading="lazy" src="${
+              project.image
+            }" class="card-img-top" alt="${project.title}">
             <div class="card-body">
               <h5 class="card-title">${project.title}</h5>
               <h6 class="card-data text-muted">${project.date}</h6>
@@ -179,6 +179,40 @@ document.addEventListener("DOMContentLoaded", () => {
       card.addEventListener("click", (e) => {
         const project = JSON.parse(card.getAttribute("data-project"));
         document.getElementById("project-title").textContent = project.title;
+
+        // Render the carousel
+        const carouselInner = document.getElementById("carousel-inner");
+        carouselInner.innerHTML = ""; // Clear previous images
+
+        project.images.forEach((media, index) => {
+          const isActive = index === 0 ? "active" : ""; // First item is active
+          let carouselItem;
+
+          if (
+            media.path.includes("youtube.com") ||
+            media.path.includes("youtu.be")
+          ) {
+            // YouTube Video Embed
+            carouselItem = `
+              <div class="carousel-item ${isActive}">
+                <div class="ratio ratio-16x9">
+                  <iframe 
+                    src="${media.path.replace("watch?v=", "embed/")}" 
+                    class="d-block w-100" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>`;
+          } else {
+            // Image
+            carouselItem = `
+              <div class="carousel-item ${isActive}">
+                <img src="${media.path}" class="d-block w-100" alt="${media.caption}">
+              </div>`;
+          }
+
+          carouselInner.innerHTML += carouselItem;
+        });
 
         document.getElementById("project-description").innerHTML =
           project.longDesc || project.description || project["short-desc"];
@@ -306,7 +340,9 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("./experiences.json")
       .then((response) => response.json())
       .then((data) => {
-        renderExperiences(data);
+        setTimeout(() => {
+          renderExperiences(data);
+        }, 1000);
       })
       .catch((error) => console.error("Error loading experiences:", error));
   }
@@ -316,7 +352,9 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("./coursework.json")
       .then((response) => response.json())
       .then((data) => {
-        renderCoursework(data);
+        setTimeout(() => {
+          renderCoursework(data);
+        }, 1000);
       })
       .catch((error) => console.error("Error loading coursework:", error));
   }
