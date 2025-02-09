@@ -269,5 +269,26 @@ h6, .card-data {
   padding-top: 2rem;
 }
 
+/* Adjust hero image focus for smaller screens */
+@media (max-width: 992px) { /* Tablets */
+  .hero-section {
+    background-position: left center; /* Focus more on the left */
+  }
+}
+
+@media (max-width: 768px) { /* Mobile devices */
+  .hero-section {
+    background-position: left center; /* Shift focus further left */
+    justify-content:right;
+    align-items:end baseline;
+    text-align: right;
+  }
+
+  .hero-content {
+    max-width: 80%; /* Expand text width for better visibility */
+    padding-top: 30%;
+    margin-right: 10%; /* Adjust positioning */
+  }
+}
 
 

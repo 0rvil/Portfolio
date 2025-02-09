@@ -197,6 +197,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="carousel-item ${isActive}">
                 <div class="ratio ratio-16x9">
                   <iframe 
+                  loading="lazy"
                     src="${media.path.replace("watch?v=", "embed/")}" 
                     class="d-block w-100" 
                     allowfullscreen>
@@ -207,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Image
             carouselItem = `
               <div class="carousel-item ${isActive}">
-                <img src="${media.path}" class="d-block w-100" alt="${media.caption}">
+                <img loading="lazy" src="${media.path}" class="d-block w-100" alt="${media.caption}">
               </div>`;
           }
 
