@@ -425,7 +425,7 @@
     {
         "title": "Rock Paper Scissors iOS App",
         "description": "My 2020 Independent project for CodeNext: Rock Paper Scissors iOS app made with Swift and XCode.",
-        "longDesc":"<p></p><h5>Evolution from Prior Implementation</h5><p></p>",
+        "longDesc":"<p><strong>My 2020 Independent Project for CodeNext:</strong> Rock Paper Scissors iOS app made with Swift and Xcode.</p><h5>Evolution from Prior Implementation</h5><p>A few months prior to creating this project, I had accomplished the same task in Java and XML for Android. The logical question to ask is:</p><p><em>How is this any different?</em></p><p>At its core, rock, paper, scissors is still rock, paper, scissors. Whether you use different objects, the game remains the same—Object A beats Object B but loses to Object C.</p><p>However, the way I approached the design of the iOS app differed from my approach to the Android version.</p><p>This time, I created custom assets for the project. I used design software to illustrate the different options displayed in the game: a question mark for the initial game screen, a rock icon, a paper icon, and a scissors icon. Each icon has a uniform background featuring a tropical gradient that shifts from pink to dark orange or dark orange to light orange. I also removed the random background color feature, which previously changed colors each time a user clicked a button. Instead, I opted for consistent pink buttons that clearly display the user&#39;s choices.</p><p>Additionally, I introduced a level system. Each time the user wins, their progress bar fills up slightly. Once they accumulate enough wins, they level up. Another major difference was the programming language—I wrote this version in Swift instead of Java. At the time, I was still learning Swift, and this project was a great way to test my skills.</p><h5>Future Improvements</h5><p>If I were to revisit this project, I would add features to make the game more engaging. One way to do this would be to increase the stakes. I remember playing a battle royale version at CodeNext, where players formed pairs, and winners kept playing until one final champion remained. Another variation I found interesting involved evolution: players started as an egg in the first round, then became a chicken, and continued evolving until they reached a dinosaur. The exact implementation of this idea would need to be refined, but I&#39;m sure it could make the game much more fun.</p>",
         "image": "Project_Display_Images/iOS_apps/ios_rps.png",
         "technologies": ["iOS", "Xcode", "Swift"],
         "images":[
@@ -743,7 +743,7 @@
     ],
         "tags": ["Featured", "Professional Project"],
         "date": "August 2024",
-        "link":["#"]
+        "link":["https://docs.google.com/presentation/d/1az3c_0xU8Pnz44g0GBB_KPy5A9zvaXHjBRzJdvC3Pzo/edit?usp=sharing"]
     },
     {
         "title": "Exam Test Portal",
