@@ -1,9 +1,15 @@
 [
     {
-        "school":"Texas Woman's University (TWU)",
-        "dates":"Expected: May, 2026",
-        "degree":"Bachelor of Science in Computer Science with a Minor in Mathematics",
+        "school":"University of California, San Diego (UCSD)",
+        "dates":"Expected Graduation: June 2027",
+        "degree":"Bachelor of Science in Cognitive Science - Specialization in Machine Learning & Neural Computation",
         "bgcolor":"bg-success"
+    },
+    {
+        "school":"Texas Woman's University (TWU)",
+        "dates":"August 2023 - December 2025",
+        "degree":"",
+        "bgcolor":"bg-secondary"
     },
     {
         "school":"University of California, San Diego (UCSD)",

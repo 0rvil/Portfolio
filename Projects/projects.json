@@ -938,7 +938,7 @@
             }
         ],
         "tags": ["Featured", "AI & Machine Learning", "Professional Project"],
-        "date": "Current",
+        "date": "March 2025",
         "link":["https://colab.research.google.com/drive/1VKx6gRjc6d1NtPg1PKcxVotdiM6pYTUX?authuser=1#scrollTo=tyIUQ192nHW5"]
     },
     {
@@ -957,6 +957,70 @@
         "tags": ["Art", "Personal Project"],
         "date": "September 2024",
         "link":["https://youtube.com/shorts/7Cd3jeTOIiI?feature=shared"]
+    },
+    {
+        "title": "Detecting Lung Adenocarcinoma and Squamous Cell Carcinoma from Histopathological Images",
+        "description":"Leveraged MobileNetV2 for feature extraction and evaluated deep learning, KNN, and SVM models to classify and detect lung cancer.",
+        "long-description":"This project study leverages MobileNetV2 for feature extraction and evaluates both deep learning and classical models (KNN and SVM) for lung adenocarcinoma classification on three cell subtypes: lung adenocarcinoma, squamous cell carcinoma, and benign cell samples.",
+        "image":"Project_Display_Images/machine_learning/lung_adenocarcinoma_detection.png",
+        "technologies": ["Python", "TensorFlow", "Keras", "Sklearn", "Matplotlib", "Numpy", "Pandas"],  
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/lung_adenocarcinoma_detection/cell_image_samples.png",
+                "caption":"A sample of the three cell types: benign, lung adenocarcinoma, and squamous cell carcinoma."
+            },
+            {
+                "type":"image",
+                "path":"Projects/lung_adenocarcinoma_detection/knn_confusion_matrix.png",
+                "caption":"The confusion matrix for the KNN model."
+            },
+            {
+                "type":"image",
+                "path":"Projects/lung_adenocarcinoma_detection/svm_confusion_matrix.png",
+                "caption":"The confusion matrix for the SVM model."
+            },
+            {
+                "type":"image",
+                "path":"Projects/lung_adenocarcinoma_detection/MobileNetV2_confusion_matrix.png",
+                "caption":"The confusion matrix for the MobileNetV2 model."
+            }
+        ],
+        "tags": ["AI & Machine Learning", "Professional Project"],
+        "date": "June 2025",
+        "link":["https://colab.research.google.com/drive/1RUmii81tvYKM7seH1n4ga5nf_Q-4ZNpl?usp=sharing"]
+    },
+    {
+        "title":"Interactive GAN Inference Pipeline",
+        "description":"Designed a live Streamlit MVP that serves and visually compares three GAN architectures (Vanilla, DCGAN, StyleGAN), on butterfly image generation.",
+        "long-description":"Designed and implemented a live MVP that serves and visually compares three GAN architectures (Vanilla, DCGAN, StyleGAN), integrating a PyTorch inference pipeline trained on a dataset of ~6,500 butterfly images. Built an interactive UI with real-time model selection and output customization, implemented simple asset caching to serve training progression GIFs on demand for qualitative analysis.",
+        "image":"Project_Display_Images/machine_learning/butterfly_gan.png",
+        "technologies": ["Python", "PyTorch", "Streamlit", "Pandas", "Numpy", "Matplotlib"],
+        "images":[
+            {
+                "type":"image",
+                "path":"Projects/Butterfly_GAN/generated_butterflies.png",
+                "caption":"A set of 32 dynamically generated butterfly images from the StyleGAN model."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Butterfly_GAN/vanilla_gan_training_progress.gif",
+                "caption":"Training Progress Over Epochs of the Vanilla GAN model."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Butterfly_GAN/dcgan_training_progress.gif",
+                "caption":"Training Progress Over Epochs of the DCGAN model."
+            },
+            {
+                "type":"image",
+                "path":"Projects/Butterfly_GAN/stylegan_training_progress.gif",
+                "caption":"Training Progress Over Epochs of the lightweight StyleGAN model."
+            }
+        ],
+        "tags": ["AI & Machine Learning", "Professional Project"],
+        "date":"September 2025"
+
     }
 
 ]

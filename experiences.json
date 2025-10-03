@@ -1,9 +1,24 @@
 [
-
+    {
+        "title":"Software Engineering Intern",
+        "organization":"Seaharbor Insurance",
+        "date":"June 2025 - Present",
+        "desc":"Developed automated UI tests with Playwright and Java to speed up validation and CI/CD workflows, engineered a C# service to optimize database performance, conducted rigorous software vetting verifying secure applications on isolated virtual machine environments, and authored user stories in Azure DevOps to support Agile delivery.",
+        "icon":"bi bi-briefcase-fill",
+        "bgcolor":"bg-secondary"
+    },
+    {
+        "title":"Portfolio Project Student Coordinator",
+        "organization":"AI4ALL",
+        "date":"April 2025 - Present",
+        "desc":"Mentored 15+ student teams through full AI/ML project lifecycles, coaching on project management, technical feasibility, and ethical AI practices to ensure high-quality, mission-driven project delivery.",
+        "icon":"bi bi-people-fill",
+        "bgcolor":"bg-success"
+    },
     {
         "title":"Ignite Program Student",
         "organization":"AI4ALL",
-        "date":"September 2024 - Present",
+        "date":"September 2024 - May 2025",
         "desc":"Led a team in applying clustering and analysis techniques to a large Instacart dataset of 3,421,083 transactions and 206,209 customers. Leveraged KMeans, DBSCAN, and Word2Vec algorithms on product and customer transaction data to reveal product associations and customer purchasing patterns. Used Python with libraries including pandas, numpy, matplotlib, scipy.stats, squarify, and sklearn.",
         "icon":"bi bi-graph-up",
         "bgcolor":"bg-primary"
@@ -17,10 +32,10 @@
         "bgcolor":"bg-danger"
     },
     {
-        "title":"Active General Body Member",
+        "title":"STEM Mentor",
         "organization":"Society of Hispanic Professional Engineers, SHPE at UCSD",
         "date":"October 2022 - June 2023",
-        "desc":" Engaged in a panel providing academic and personal success advice to 100+ high school students at an underachieving school, promoting higher education in STEM. Co-facilitated a hands-on STEM activity, inspiring enthusiasm for STEM among 20+ fifth-grade students. Co-led a parent presentation, assisted with activities, and facilitated campus tours for 30+ students, promoting STEM exploration and higher education at the EMPOWER High School STEM conference.",
+        "desc":"Volunteered as a mentor for over 150 K-12 students and their families, leading hands-on workshops for elementary students and serving as a panelist for high schoolers to promote higher education and careers in STEM.",
         "icon":"bi bi-building",
         "bgcolor":"bg-warning"
     },

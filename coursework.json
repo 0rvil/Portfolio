@@ -1,4 +1,25 @@
 [
+        {
+        "title":"Software Engineering, CSCI 4623",
+        "taken":"Fall, 2025. TWU",
+        "desc":"An introduction to the basic concepts, principles and design issues in software engineering. The contents include the planning, designing, creating, testing and maintaining efficient and robust software systems.",
+        "icon" : "bi bi-braces",
+        "bgcolor" : "bg-success"
+    },
+        {
+        "title":"Network & Data Communication, CSCI 4313",
+        "taken":"Fall, 2025. TWU",
+        "desc":"Introduction to hardware, software design, and protocols used in networking and data communication. Depending on emphasis, topics will be selected from architectures, OSI Reference Models, transmission media, software design, LANs, performance modeling, and other related subjects.",
+        "icon" : "bi bi-router",
+        "bgcolor" : "bg-warning"
+    },
+        {
+        "title":"Digital Logic & Computer Architecture, CSCI 3443",
+        "taken":"Fall, 2025. TWU",
+        "desc":"An introduction to the concepts of digital logic, numbers systems and codes. Topics include: digital circuit design, combinatorial logic design, decoders, multiplexers, adders. Sequential design flip-flops, latches, counters, and shift registers. Elements of CPU arithmetic, architectures and instruction sets provide the basic concepts associated with computer architecture.",
+        "icon" : "bi-diagram-2",
+        "bgcolor" : "bg-danger"
+    },
     {
         "title":"Big Data & High Performance Computing, CSCI 4623",
         "taken":"Spring, 2025. TWU",
