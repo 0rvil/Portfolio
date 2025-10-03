@@ -1019,7 +1019,8 @@
             }
         ],
         "tags": ["AI & Machine Learning", "Professional Project", "Featured"],
-        "date":"September 2025"
+        "date":"September 2025",
+        "link":["https://orvil-butterfly-gan.streamlit.app/"]
 
     }
 
