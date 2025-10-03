@@ -986,7 +986,7 @@
                 "caption":"The confusion matrix for the MobileNetV2 model."
             }
         ],
-        "tags": ["AI & Machine Learning", "Professional Project"],
+        "tags": ["AI & Machine Learning", "Professional Project", "Featured"],
         "date": "June 2025",
         "link":["https://colab.research.google.com/drive/1RUmii81tvYKM7seH1n4ga5nf_Q-4ZNpl?usp=sharing"]
     },
@@ -1018,7 +1018,7 @@
                 "caption":"Training Progress Over Epochs of the lightweight StyleGAN model."
             }
         ],
-        "tags": ["AI & Machine Learning", "Professional Project"],
+        "tags": ["AI & Machine Learning", "Professional Project", "Featured"],
         "date":"September 2025"
 
     }
